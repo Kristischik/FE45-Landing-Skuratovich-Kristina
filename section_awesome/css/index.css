@@ -1,0 +1,47 @@
+@import url('./cdn.css');
+@import url('./awesome.css');
+
+* {
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+.html {
+font-family: 'Open Sans','Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.title {
+   font-family:'Raleway';
+   font-weight: 400;
+   font-size: 36px;
+   text-transform: uppercase; 
+   text-align: center;
+   margin-bottom: 34px;
+   color: #212121;
+   line-height: 42.26px;
+}
+
+.title-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 19.07px;
+text-align: center;
+color: #86878B;
+margin-bottom: 68px;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: 0 auto 34px;
+}
