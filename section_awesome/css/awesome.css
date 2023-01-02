@@ -4,12 +4,14 @@
 
 .awesome-wrap {
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
+margin: 0 -15px;
 }
 
 .awesome-card {
     width: 350px;
-    border: 1px solid #fff;
+    margin: 0 15px;
 }
 
 .awesome-card--icon {
@@ -19,6 +21,7 @@ border: 1px solid #E72424;
 margin: 0 auto 30px;
 border-radius: 50%;
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 }
@@ -26,15 +29,19 @@ justify-content: center;
 .awesome-card--title {
     font-weight: 700;
     font-size: 20px;
+    line-height: 27.24px;
     text-align: center;
     margin-bottom: 16px;
     color: #333333;
 }
 
 .awesome-card--description {
+    text-align: center;
+}
+
+.awesome-card--description p {
     font-weight: 400;
     line-height: 19.07px;
     font-size: 14px;
-    text-align: center;
     color: black;
 }

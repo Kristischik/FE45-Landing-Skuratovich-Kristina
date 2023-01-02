@@ -1,0 +1,54 @@
+.price {
+    padding: 80px 0 60px;
+    background-color: #F5F5F5;
+}
+
+.tarif-wrap {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 0 -15px;
+}
+
+.tarif-card {
+width: 340px;
+margin: 0 15px;
+}
+
+.tarif-card--title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: #333333;
+    margin-bottom: 2px;
+}
+.tarif-catd--coust {
+    font-family:'Raleway';
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    background-color: #333333;
+    margin-bottom: 2px;
+}
+.tarif-card--info {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+    margin-bottom: 4px;
+}
+.tarif-card-space {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    color: #86878B;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+}
