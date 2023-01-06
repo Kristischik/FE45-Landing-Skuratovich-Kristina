@@ -12,6 +12,8 @@ margin: 0 -15px;
 .customer {
     width: 298px;
     margin: 0 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .customer-review {
@@ -24,6 +26,7 @@ margin-bottom: 22px;
 position: relative;
 top: 0;
 left: 0;
+flex-grow: 1;
 }
 
 .customer-review::after {
