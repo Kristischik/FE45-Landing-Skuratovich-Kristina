@@ -38,7 +38,8 @@ flex-grow: 1;
     border-top: 20px solid #E2E2E2;
     display: inline-block;
     position: absolute;
-    bottom: -20px;
+    /* bottom: -20px; */
+    top: 100%;
     left: 40px;
 }
 
@@ -47,6 +48,7 @@ flex-grow: 1;
     line-height: 19px;
     font-size: 14px;
     color: #86878B;
+    text-align: center;
 }
 
 .customer-info {
@@ -54,7 +56,6 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
-margin-top: 8px;
 }
 
 .customer-info-foto {
