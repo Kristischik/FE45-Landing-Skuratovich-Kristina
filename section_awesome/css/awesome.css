@@ -29,7 +29,7 @@ justify-content: center;
 .awesome-card--title {
     font-weight: 700;
     font-size: 20px;
-    line-height: 27.24px;
+    line-height: 27px;
     text-align: center;
     margin-bottom: 16px;
     color: #333333;
@@ -41,7 +41,7 @@ justify-content: center;
 
 .awesome-card--description p {
     font-weight: 400;
-    line-height: 19.07px;
+    line-height: 19px;
     font-size: 14px;
     color: black;
 }

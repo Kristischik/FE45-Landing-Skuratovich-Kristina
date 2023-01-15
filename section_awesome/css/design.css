@@ -52,22 +52,22 @@
      color: rgba(255, 255, 255, 0.8);
  }
 
-.design-btn {
+.design-download {
     display: block;
     margin: auto;
     width: 135px;
     height: 42px;
-    cursor: pointer;
     border: 1px solid #fff;
     color: #fff;
     font-size: 15px;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 42px;
+    text-align: center;
     margin-top: 57px;
     background-color: rgba(196, 196, 196, 0);
     transition: 0.2s;
 }
 
-.design-btn:hover {
+.design-download:hover {
    background-color: #252525;
 }
