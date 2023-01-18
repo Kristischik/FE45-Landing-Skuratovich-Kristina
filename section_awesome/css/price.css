@@ -1,5 +1,5 @@
 .price {
-    padding: 80px 0 60px;
+    padding: 5rem 0 3.75rem;
     background-color: #F5F5F5;
 }
 
@@ -11,15 +11,15 @@ margin: 0 -15px;
 }
 
 .tarif-card {
-width: 340px;
+width: 21.25rem;
 margin: 0 15px;
 }
 
 .tarif-card--title {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
-    line-height: 50px;
+    line-height: 3.125rem;
     color: #fff;
     background-color: #333333;
     margin-bottom: 2px;
@@ -27,28 +27,27 @@ margin: 0 15px;
 .tarif-card--coust {
     font-family:'Raleway';
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: center;
-    line-height: 100px;
+    line-height: 6.25rem;
     color: #fff;
     background-color: #333333;
     margin-bottom: 2px;
 }
 .tarif-card--info {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
-    line-height: 50px;
+    line-height: 3.125rem;
     color: rgba(255, 255, 255, 0.5);
     background-color: #333333;
     margin-bottom: 4px;
 }
 .tarif-card-space {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
-    line-height: 40px;
-    color: #86878B;
+    line-height: 2.5rem;
     background-color: #FFFFFF;
     margin-bottom: 4px;
 }

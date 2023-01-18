@@ -1,5 +1,5 @@
 .header {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     background-color: #000000;
     position: sticky;
     top: 0;
@@ -17,8 +17,8 @@
 .logo {
 font-family: 'Raleway';
 font-weight: 400;
-font-size: 30px;
-line-height: 35px;
+font-size: 1.875rem;
+line-height: 2.1875rem;
 text-transform: uppercase;
 margin: 0 15px;
 }
@@ -37,10 +37,10 @@ margin-right: 5px;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 15px;
+    width: 30.625rem;
 }
 
 .nav-list-item {
-    margin-left: 48px;
     transition: 0.2s;
     border-bottom: 3px solid transparent;
 }
@@ -52,11 +52,8 @@ transform: translate(0 , 3px);
 
 .nav-list-item a {
     font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.nav-list-item:first-child {
-    margin-left: 0;  
-  }

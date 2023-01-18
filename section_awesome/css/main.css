@@ -1,5 +1,5 @@
 .main {
-    padding: 98px 0px 112px;
+    padding: 6.125rem 0px 7rem;
     background-image: url('../img/bg/bg-main.png');
     background-repeat: no-repeat;
     background-position:  center;
@@ -23,67 +23,69 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+align-items: start;
 margin: 0 -15px;
 }
 .main-title {
 margin: 0 15px;
+max-width: 34rem;
 }
 .main-logo {
     font-family: Roboto;
     font-weight: 400;
-    font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 42px;
+    font-size: 3.75rem;
+    line-height: 4.375rem;
+    margin-bottom: 2.625rem;
 }
 
 .main-tagline {
     font-family: Raleway;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
     color: #fff;
-    max-width: 544px;
     text-transform: uppercase;
 }
 
 .main-tagline::after {
     content: '';
-    width: 64px;
+    width: 4rem;
     height: 2px;
     background-color: rgba(255, 255, 255, 0.8);
     display: block;
-    margin: 32px 0 39px;
+    margin: 3rem 0 2.5rem;
 }
 
 .main-text {
-    width: 282px;
-    margin-bottom: 39px;
+    width: 17.625rem;
+    margin-bottom: 2.5rem;
     text-align: left;
 }
 
 .main-text p {
     font-family: Raleway;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.25rem ;
     color: rgba(255, 255, 255, 0.8);
 }
 
 .download {
     display: block;
     text-align: center;
-    width: 135px;
+    width: 8.4375rem;
     border: 1px solid #fff;
     background-color: rgba(196, 196, 196, 0);
     color: #fff;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 600;
-    line-height: 42px; 
+    line-height: 2.625rem; 
     transition: 0.2s;
 }
 
 .download:hover {
 background-color: #252525;
+transform: scale(0.8)
 }
 
 .main-form {
@@ -93,23 +95,23 @@ background-color: #252525;
 .form-content {
 background-color: #fff;
 border-radius: 8px;
-width: 370px;
+width: 23.125rem;
 overflow: hidden;
 }
 
 .form-content-data {
-padding: 0 59px 61px;
+padding: 0 3.6875rem 3.8125rem;
 }
 
 .form-title {
     font-family: 'Open Sans';
     font-weight: 700;
-    font-size: 20px;
-    line-height: 56px;
+    font-size: 1.25rem;
+    line-height: 3.5rem;
     color: #333333;
     text-transform: capitalize;
     text-align: center;
-    margin-bottom: 44px;
+    margin-bottom: 2.75rem;
 }
 
 .form-title-free {
@@ -123,8 +125,8 @@ input[type="password"] {
 border: none;
 border-bottom: 1px solid #BDBDBD;
 width: 100%;
-font-size: 16px;
-margin-bottom: 19px;
+font-size: 1rem;
+margin-bottom: 1.1875rem;
 }
 
 input[type="password"] {
@@ -134,8 +136,8 @@ input[type="password"] {
 label {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
     color: #BDBDBD;
     display: block;
     text-align: left;
@@ -143,14 +145,13 @@ label {
 }
 
 .form-btn {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 600;
-    line-height: 54px;
+    height: 3.375rem;
     text-transform: capitalize;
     color: #FFF;
     background-color: #EC7979;
     border: 1px solid #EC7979;
-    text-align: center;
     width: 100%;
     cursor: pointer;
     transition: 0.2s;
