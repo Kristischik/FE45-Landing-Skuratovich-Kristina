@@ -7,7 +7,7 @@ max-width: 970px;
 }
 } */
 
-/* @media (max-width:1200px) {
+@media (max-width:1200px) {
 html {
     font-size: 12px;
 }
@@ -52,7 +52,7 @@ max-width: 750px;
 .customer {
     width: 15rem;
 }
-} */
+}
 /* @media (max-width:767px) {
     html {
         font-size: 10px;
